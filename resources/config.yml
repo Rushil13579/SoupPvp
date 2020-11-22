@@ -1,0 +1,28 @@
+# SoupPvp
+# Made By - Rushil13579 / Rushil#2326
+
+# AMOUNT OF HEALTH TO BE GAINED PER SOUP [DEFAULT: 5 HP Points or 2.5 hearts]
+
+heal-per-soup: 5
+
+# ITEM WHICH SHOULD BE USED AS SOUP [DEFAULT: MUSHROOM STEW] [FORMAT: "ItemId:Meta"]
+
+soup-item-id: "282:0"
+
+# MESSAGE TO BE SENT WHEN SOUP IS USED AT MAXIMUM HEALTH [USE '§' FOR COLOR]
+
+max-health-msg: "§cYou are already at maximum health"
+
+# MESSAGE TO BE SENT WHEN SOUP IS USED IN GAMEMODE CREATIVE OR SPECTATOR [USE '§' FOR COLOR]
+
+no-soup-gamemode-msg: "§cYou cannot use soup in this gamemode"
+
+# WORLDS IN WHICH SOUP CAN BE USED
+# soup-worlds:
+#  - "worldname" [CASE SENSITIVE]
+
+soup-worlds:
+  - "world"
+
+# FOR ANY ISSUES CONTACT ME AT THE ABOVE DISCORD
+# THANKS FOR USING THIS PLUGIN
