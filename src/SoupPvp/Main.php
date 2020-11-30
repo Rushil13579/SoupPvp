@@ -1,6 +1,6 @@
 <?php
 
-namespace SoupPvp;
+namespace Rushil13579\SoupPvp;
 
 use pocketmine\Player;
 use pocketmine\Plugin;
