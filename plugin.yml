@@ -1,5 +1,13 @@
 name: SoupPvp
 main: Rushil13579\SoupPvp\Main
 author: Rushil13579
-version: 1.0.0
+version: 1.1.0
 api: 3.0.0
+
+permissions:
+  souppvp.refill:
+    description: Allows a player to use the refill command!
+  souppvp.refill.sign.create:
+    description: Allows a player to create a refill sign!
+  souppvp.refill.sign.use:
+    description: Allows a player to use a refill sign!

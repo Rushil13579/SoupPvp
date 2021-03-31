@@ -1,6 +1,9 @@
 # SoupPvp
 # Made By - Rushil13579 / Rushil#2326
 
+# PLUGIN VERSION [DO NOT TOUCH]
+version: '1.1.0'
+
 # AMOUNT OF HEALTH TO BE GAINED PER SOUP [DEFAULT: 5 HP Points or 2.5 hearts]
 
 heal-per-soup: 5
@@ -16,6 +19,22 @@ max-health-msg: "§cYou are already at maximum health"
 # MESSAGE TO BE SENT WHEN SOUP IS USED IN GAMEMODE CREATIVE OR SPECTATOR [USE '§' FOR COLOR]
 
 no-soup-gamemode-msg: "§cYou cannot use soup in this gamemode"
+
+# MESSAGE TO BE SENT WHEN THE REFILL COMMAND IS RUN ON CONSOLE OR RCON
+
+not-player-msg: "§cPlease use this command in-game"
+
+# MESSAGE TO BE SENT WHEN A PLAYER RUNS THE REFILL COMMAND BUT DOESNT HAVE PERMISSION [Permission: souppvp.refill]
+
+no-perm-msg: "§cYou do not have permission to use this command"
+
+# MESSAGE TO BE SENT WHEN A PLAYER WITH A FULL INVENTORY RUNS THE REFILL COMMAND
+
+inv-full-msg: "§cYour inventory is full"
+
+# MESSAGE TO BE SENT WHEN A PLAYER RUNS THE SOUP REFILL COMMAND SUCCESSFULLY [Use {count} for the number of soup given]
+
+refilled-msg: "§aYou have been refilled! Added {count} soups"
 
 # WORLDS IN WHICH SOUP CAN BE USED
 # soup-worlds:
